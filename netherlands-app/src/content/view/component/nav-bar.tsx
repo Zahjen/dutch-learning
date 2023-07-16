@@ -32,7 +32,7 @@ const NavBar = () => {
                 </div>
 
                 <div className="nav-bar-link-container">
-                    <NavLink className="nav-bar-link" to="/">Accueil</NavLink>
+                    <NavLink className="nav-bar-link" to="/dutch-learning">Accueil</NavLink>
                     <NavLink className="nav-bar-link" to="/conjugaison">Conjugaison</NavLink>
                     <NavLink className="nav-bar-link" to="/vocabulaire">Vocabulaire</NavLink>
                     <NavLink className="nav-bar-link" to="/grammaire">Grammaire</NavLink>
