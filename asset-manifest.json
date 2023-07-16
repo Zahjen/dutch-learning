@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/netherlands/static/css/main.0067b422.css",
-    "main.js": "/netherlands/static/js/main.73ed1308.js",
+    "main.js": "/netherlands/static/js/main.44742c14.js",
     "static/media/home-learning-language.png": "/netherlands/static/media/home-learning-language.f78ffee0adcf963828ff.png",
     "static/media/in-progress.png": "/netherlands/static/media/in-progress.e1e5ed8c39a7df413bf8.png",
     "static/media/logo.svg": "/netherlands/static/media/logo.532d2ae8fa451b779e1500a83d79a07f.svg",
     "index.html": "/netherlands/index.html",
     "main.0067b422.css.map": "/netherlands/static/css/main.0067b422.css.map",
-    "main.73ed1308.js.map": "/netherlands/static/js/main.73ed1308.js.map"
+    "main.44742c14.js.map": "/netherlands/static/js/main.44742c14.js.map"
   },
   "entrypoints": [
     "static/css/main.0067b422.css",
-    "static/js/main.73ed1308.js"
+    "static/js/main.44742c14.js"
   ]
 }
