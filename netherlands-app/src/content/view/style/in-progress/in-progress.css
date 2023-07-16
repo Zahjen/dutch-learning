@@ -1,0 +1,15 @@
+.in-progress-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.in-progress-container .in-progress-img {
+  width: 60%;
+  height: auto;
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=in-progress.css.map */

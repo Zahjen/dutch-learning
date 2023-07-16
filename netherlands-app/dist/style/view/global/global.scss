@@ -1,0 +1,50 @@
+@use "../../variable/color" as color;
+@use "../../variable/padding" as padding;
+@use "../../variable/mixin" as mixin;
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    @include mixin.initialization();
+
+    font-family: 'Urbanist', sans-serif;
+
+    scrollbar-width: thin;
+    scrollbar-color: color.$scrollbar-color;
+
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        @include mixin.width-height(9px, 9px);
+    }
+
+    &::-webkit-scrollbar-track {
+        border: 10px solid color.$scrollbar-track-color;
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: color.$scrollbar-color;
+        border-radius: 5px;
+    }
+}
+
+body {
+    @include mixin.flex(row, center, flex-start);
+    @include mixin.width-height(100vw, auto);
+
+    background-color: color.$dark;
+    color: color.$light;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.app-container {
+    max-width: 1100px;
+    width: 100vw;
+}
+
+.page-container {
+    margin: 50px 0;
+}

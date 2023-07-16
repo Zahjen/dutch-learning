@@ -1,0 +1,9 @@
+.vocabular-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+}
+
+/*# sourceMappingURL=card-container.css.map */

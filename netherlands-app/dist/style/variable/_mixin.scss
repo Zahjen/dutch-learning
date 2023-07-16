@@ -1,0 +1,55 @@
+@mixin initialization {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin flex($direction, $justify-content, $align-item) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-item;
+}
+
+@mixin width-height($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin border-radius($border-radius) {
+    -webkit-border-radius: $border-radius;
+    -moz-border-radius: $border-radius;
+    -ms-border-radius: $border-radius;
+    -o-border-radius: $border-radius;
+    border-radius: $border-radius;
+}
+
+@mixin justify-text {
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+}
+
+@mixin transition($content, $time, $way-it-goes) {
+    -webkit-transition: $content $time $way-it-goes;
+    -moz-transition: $content $time $way-it-goes;
+    -ms-transition: $content $time $way-it-goes;
+    -o-transition: $content $time $way-it-goes;
+    transition: $content $time $way-it-goes;
+}
+
+@mixin transform($value) {
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    -ms-transform: $value;
+    -o-transform: $value;
+    transform: $value;
+}
+
+@mixin clip-path($value) {
+    -webkit-clip-path: $value;
+    clip-path: $value;
+}

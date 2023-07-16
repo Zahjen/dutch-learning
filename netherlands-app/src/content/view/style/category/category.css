@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* Courleurs relatives à l'application dans sa globalité. */
+/* Gradient */
+/* Button animation */
+/* Couleurs relatives à la barre de défilement. */
+.category-container .category-title {
+  margin: 60px 0;
+}
+.category-container .category-section-container {
+  margin-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #5a697b;
+}
+
+/*# sourceMappingURL=category.css.map */

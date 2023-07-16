@@ -1,0 +1,11 @@
+@use '../../variable/mixin' as mixin;
+@use '../../variable/color' as color;
+@use '../../variable/media' as media;
+@use '../../variable/font' as font;
+
+@media screen and (max-width: media.$laptop) {
+    .button {
+        padding: 7px 30px;  
+        font-size: font.$laptop-text;
+    }
+}

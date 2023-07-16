@@ -1,0 +1,23 @@
+@use "../../variable/color" as color;
+@use "../../variable/padding" as padding;
+@use "../../variable/mixin" as mixin;
+@use "../../variable/font" as font;
+@use "../../variable/media" as media;
+
+.title-container {
+    color: color.$primary;
+    font-size: font.$title;
+    white-space: pre-wrap;
+}
+
+@media screen and (max-width: media.$laptop) {
+    .title-container {
+        font-size: font.$laptop-title;
+    }
+}
+
+@media screen and (max-width: media.$laptop) {
+    .title-container {
+        font-size: font.$mobile-title;
+    }
+}

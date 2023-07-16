@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Courleurs relatives à l'application dans sa globalité. */
+/* Gradient */
+/* Button animation */
+/* Couleurs relatives à la barre de défilement. */
+.home-header-container {
+  margin: 100px 0;
+}
+.home-header-container .home-header-title {
+  text-align: left;
+}
+.home-header-container .home-header-rule {
+  width: 300px;
+  border: 0.5px solid #fcf3d6;
+  margin: 20px 0;
+}
+.home-header-container .home-header-text {
+  text-align: justify;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin-bottom: 30px;
+}
+.home-header-container .home-header-right-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home-header-container .home-header-right-container .home-header-learning-image {
+  width: 90%;
+  height: auto;
+}
+
+/*# sourceMappingURL=home-header.css.map */

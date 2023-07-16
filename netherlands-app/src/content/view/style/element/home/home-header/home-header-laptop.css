@@ -1,0 +1,15 @@
+@media screen and (max-width: 950px) {
+  .home-header-container .home-header-rule {
+    width: 200px;
+    margin: 15px 0;
+  }
+  .home-header-container .home-header-text {
+    margin-bottom: 25px;
+  }
+  .home-header-container .home-header-learning-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=home-header-laptop.css.map */

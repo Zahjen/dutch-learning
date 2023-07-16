@@ -1,0 +1,16 @@
+@media screen and (max-width: 550px) {
+  .note-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  .note-container .note-title {
+    min-width: 45px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+}
+
+/*# sourceMappingURL=note-mobile.css.map */

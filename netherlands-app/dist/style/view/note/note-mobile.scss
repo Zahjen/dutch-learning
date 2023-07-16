@@ -1,0 +1,16 @@
+@use '../../variable/font' as font;
+@use '../../variable/media' as media;
+@use '../../variable/mixin' as mixin;
+
+@media screen and (max-width: media.$mobile) {
+    .note-container { 
+        @include mixin.flex(column, flex-start, flex-start); 
+        padding: 15px; 
+
+        .note-title {
+            min-width: 45px;
+            margin-right: 0px;
+            margin-bottom: 5px;
+        }
+    }
+}

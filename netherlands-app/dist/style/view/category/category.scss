@@ -1,0 +1,13 @@
+@use "../../variable/color" as color;
+
+.category-container {
+    .category-title {
+        margin: 60px 0;
+    }
+
+    .category-section-container {
+        margin-top: 40px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid color.$primary;
+    }
+}

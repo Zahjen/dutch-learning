@@ -1,0 +1,47 @@
+@use '../../variable/mixin' as mixin;
+@use '../../variable/color' as color;
+@use '../../variable/font' as font;
+
+.button {
+    @include mixin.transition(all, 0.4s, ease-in-out);
+    @include mixin.border-radius(50px);
+
+    // Permet de mettre en place la propriété overflow: hidden;
+    display: inline-block; 
+    overflow: hidden;
+    position: relative;
+
+    // Si la classe est associée à une balise button, on supprime les styles par défaut.
+    border: none;
+
+    padding: 10px 40px;    
+    cursor: pointer;
+    font-size: font.$text;
+
+    &::after {
+        @include mixin.transition(all, 0.4s, ease-in-out);
+        @include mixin.width-height(40px, 100%);
+        @include mixin.transform(skewX(30deg) rotate(90deg));
+
+        content: "";
+        background: color.$light-alpha;
+        filter: blur(10px);
+        position: absolute;
+        top: 0;
+        left: -100px;
+    }
+
+    &:hover::after {
+        left: 200px;
+    }
+}
+
+.button-fill-primary {
+    background-color: color.$primary;
+    color: color.$light;
+}
+
+.button-fill-secondary {
+    background-color: color.$secondary;
+    color: color.$dark;
+}

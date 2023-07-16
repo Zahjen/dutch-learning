@@ -1,0 +1,14 @@
+@use '../../variable/font' as font;
+@use '../../variable/media' as media;
+
+@media screen and (max-width: media.$laptop) {
+    .note-container {  
+        padding: 10px 20px; 
+
+        .note-title {
+            min-width: 45px;
+            margin-right: 5px;
+        }
+    }
+}
+

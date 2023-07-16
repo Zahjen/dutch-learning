@@ -1,0 +1,67 @@
+@use '../../variable/color' as color;
+@use '../../variable/size' as size;
+@use '../../variable/padding' as padding;
+@use '../../variable/margin' as margin;
+@use '../../variable/mixin' as mixin;
+@use '../../variable/font' as font;
+
+.nav {
+    margin-top: margin.$T-nav-bar;
+    position: sticky;
+    top: margin.$T-nav-bar;
+    z-index: 99;
+    
+    #nav-bar-checkbox, .nav-bar-btn {
+        display: none;
+    }
+
+    .nav-bar-container {
+        @include mixin.flex(row, space-between, center);
+        @include mixin.width-height(100%, size.$nav-bar-height);
+        @include mixin.border-radius(50px);
+
+        background-color: color.$primary;
+
+        .nav-bar-logo-container {
+            @include mixin.flex(row, space-between, center);
+
+            margin-left: 30px;
+
+            .nav-bar-logo {
+                @include mixin.width-height(size.$nav-bar-logo, size.$nav-bar-logo);
+            }
+
+            .nav-bar-logo-text {
+                color: color.$light;
+                margin-left: 10px;
+            }
+        }
+
+        .nav-bar-link-container > a.active, .nav-bar-contact-container > a {
+            @include mixin.border-radius(15px);
+
+            padding: 5px 30px;
+            color: color.$primary;
+        }
+
+        .nav-bar-link-container > a.active {
+            background-color: color.$light;
+        }      
+
+        .nav-bar-link {
+            color: color.$light;
+            margin: 0 14px;
+            font-size: font.$text;
+        }
+
+        .nav-bar-contact-container {
+            @include mixin.flex(row, center, center);
+            margin-right: 7px;
+            font-size: font.$text;
+        }
+    }
+
+    .ghost {
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+@use '../../../../variable/font' as font;
+@use '../../../../variable/media' as media;
+@use '../../../../variable/mixin' as mixin;
+
+@media screen and (max-width: media.$laptop) {
+    .home-header-container { 
+        
+        .home-header-rule {
+            width: 200px;
+            margin: 15px 0;
+        }
+    
+        .home-header-text {
+            margin-bottom: 25px;
+        }        
+
+        .home-header-learning-image {
+            @include mixin.width-height(100%, auto);
+        }
+    }
+}

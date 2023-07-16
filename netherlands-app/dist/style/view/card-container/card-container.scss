@@ -1,0 +1,8 @@
+@use "../../variable/mixin" as mixin;
+
+.vocabular-card-container {
+    @include mixin.flex(column, center, stretch);
+
+    gap: 40px;
+}
+

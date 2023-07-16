@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* Courleurs relatives à l'application dans sa globalité. */
+/* Gradient */
+/* Button animation */
+/* Couleurs relatives à la barre de défilement. */
+@media screen and (max-width: 950px) {
+  .nav .nav-bar-container .nav-bar-link {
+    font-size: 16px;
+  }
+  .nav .nav-bar-container .nav-bar-contact-container {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=nav-bar-laptop.css.map */

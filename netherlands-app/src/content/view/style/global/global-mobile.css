@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Courleurs relatives à l'application dans sa globalité. */
+/* Gradient */
+/* Button animation */
+/* Couleurs relatives à la barre de défilement. */
+@media screen and (max-width: 550px) {
+  .app-container {
+    padding: 0 15px;
+  }
+}
+
+/*# sourceMappingURL=global-mobile.css.map */

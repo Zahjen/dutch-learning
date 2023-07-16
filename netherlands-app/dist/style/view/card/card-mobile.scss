@@ -1,0 +1,12 @@
+@use "../../variable/color" as color;
+@use "../../variable/size" as size;
+@use "../../variable/mixin" as mixin;
+@use "../../variable/font" as font;
+@use "../../variable/media" as media;
+
+@media screen and (max-width: media.$laptop) {
+    .card-container {
+        padding: 20px;
+    }
+}
+  

@@ -1,0 +1,11 @@
+@media screen and (max-width: 550px) {
+  .home-header-container {
+    margin: 70px 0;
+  }
+  .home-header-container .home-header-right-container .home-header-learning-image {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=home-header-mobile.css.map */

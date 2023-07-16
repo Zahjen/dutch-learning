@@ -1,0 +1,17 @@
+@use '../../variable/color' as color;
+@use '../../variable/font' as font;
+@use '../../variable/mixin' as mixin;
+
+.note-container {
+    @include mixin.flex(row, flex-start, flex-start);
+    
+    padding: 20px;
+    background-color: color.$light-gray;
+    border-left: 5px solid color.$primary;
+    
+    .note-title {
+        min-width: 52px;
+
+        margin-right: 10px;
+    }
+}

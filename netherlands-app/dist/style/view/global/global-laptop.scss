@@ -1,0 +1,11 @@
+@use '../../variable/mixin' as mixin;
+@use '../../variable/size' as size;
+@use '../../variable/color' as color;
+@use '../../variable/padding' as padding;
+@use '../../variable/media' as media;
+
+@media screen and (max-width: media.$laptop-global) {
+    .app-container {
+        padding: 0 30px;
+    }
+}

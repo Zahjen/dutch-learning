@@ -1,0 +1,23 @@
+.two-cells-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 60px;
+  row-gap: 0px;
+}
+.two-cells-grid-container .left-cell-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  grid-area: 1/1/2/2;
+}
+.two-cells-grid-container .right-cell-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  grid-area: 1/2/2/3;
+}
+
+/*# sourceMappingURL=two-cells.css.map */

@@ -1,0 +1,32 @@
+@use '../../../../variable/color' as color;
+@use '../../../../variable/margin' as margin;
+@use '../../../../variable/mixin' as mixin;
+@use '../../../../variable/font' as font;
+
+.home-header-container {
+    margin: margin.$space-between-element 0;
+
+    .home-header-title {
+        text-align: left;
+    }
+
+    .home-header-rule {
+        width: 300px;
+        border: 0.5px solid color.$secondary;
+        margin: 20px 0;
+    }
+
+    .home-header-text {
+        @include mixin.justify-text();
+
+        margin-bottom: 30px;
+    }
+
+    .home-header-right-container {
+        @include mixin.flex(row, center, center);
+
+        .home-header-learning-image {
+            @include mixin.width-height(90%, auto);
+        }
+    }
+}

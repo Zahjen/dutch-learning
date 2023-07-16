@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Courleurs relatives à l'application dans sa globalité. */
+/* Gradient */
+/* Button animation */
+/* Couleurs relatives à la barre de défilement. */
+@media screen and (max-width: 950px) {
+  .card-container {
+    padding: 30px;
+  }
+  .card-container .border::before {
+    -webkit-transform: translate(-50%, -50%) rotate(-35deg);
+    -moz-transform: translate(-50%, -50%) rotate(-35deg);
+    -ms-transform: translate(-50%, -50%) rotate(-35deg);
+    -o-transform: translate(-50%, -50%) rotate(-35deg);
+    transform: translate(-50%, -50%) rotate(-35deg);
+  }
+}
+
+/*# sourceMappingURL=card-laptop.css.map */

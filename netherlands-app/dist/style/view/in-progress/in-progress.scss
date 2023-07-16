@@ -1,0 +1,11 @@
+@use '../../variable/mixin' as mixin;
+
+.in-progress-container {
+    @include mixin.flex(column, center, center);
+    @include mixin.width-height(100%, auto);
+
+    .in-progress-img {
+        @include mixin.width-height(60%, auto);
+        margin-top: 100px;
+    }
+}

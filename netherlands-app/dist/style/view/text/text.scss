@@ -1,0 +1,34 @@
+@use '../../variable/font' as font;
+@use '../../variable/color' as color;
+@use '../../variable/media' as media;
+
+.text-container {
+    font-size: font.$text;
+    white-space: pre-wrap;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-primary {
+    color: color.$primary;
+}
+
+.text-secondary {
+    color: color.$secondary;
+}
+
+.text-warning {
+    color: color.$warning;
+}
+
+@media screen and (max-width: media.$laptop) {
+    .text-container {
+        font-size: font.$laptop-text;
+    }
+}

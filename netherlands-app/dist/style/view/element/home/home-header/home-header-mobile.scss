@@ -1,0 +1,14 @@
+@use '../../../../variable/font' as font;
+@use '../../../../variable/media' as media;
+@use '../../../../variable/mixin' as mixin;
+@use '../../../../variable/margin' as margin;
+
+@media screen and (max-width: media.$mobile) {
+    .home-header-container {
+        margin: margin.$space-between-element-mobile 0;
+
+        .home-header-right-container .home-header-learning-image {
+            @include mixin.width-height(80%, auto);
+        }
+    }
+}

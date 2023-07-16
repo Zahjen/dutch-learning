@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* Courleurs relatives à l'application dans sa globalité. */
+/* Gradient */
+/* Button animation */
+/* Couleurs relatives à la barre de défilement. */
+.button {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.button::after {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  width: 40px;
+  height: 100%;
+  -webkit-transform: skewX(30deg) rotate(90deg);
+  -moz-transform: skewX(30deg) rotate(90deg);
+  -ms-transform: skewX(30deg) rotate(90deg);
+  -o-transform: skewX(30deg) rotate(90deg);
+  transform: skewX(30deg) rotate(90deg);
+  content: "";
+  background: rgba(255, 255, 255, 0.5);
+  filter: blur(10px);
+  position: absolute;
+  top: 0;
+  left: -100px;
+}
+.button:hover::after {
+  left: 200px;
+}
+
+.button-fill-primary {
+  background-color: #5a697b;
+  color: #f2f2f2;
+}
+
+.button-fill-secondary {
+  background-color: #fcf3d6;
+  color: #2c394c;
+}
+
+/*# sourceMappingURL=button.css.map */

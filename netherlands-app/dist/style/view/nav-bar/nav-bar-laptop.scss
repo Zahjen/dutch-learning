@@ -1,0 +1,20 @@
+@use '../../variable/mixin' as mixin;
+@use '../../variable/size' as size;
+@use '../../variable/color' as color;
+@use '../../variable/padding' as padding;
+@use '../../variable/media' as media;
+@use '../../variable/font' as font;
+
+@media screen and (max-width: media.$laptop) {
+    .nav {
+        .nav-bar-container {
+            .nav-bar-link {
+                font-size: font.$laptop-text;
+            }
+    
+            .nav-bar-contact-container {
+                font-size: font.$laptop-text;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 950px) {
+  .note-container {
+    padding: 10px 20px;
+  }
+  .note-container .note-title {
+    min-width: 45px;
+    margin-right: 5px;
+  }
+}
+
+/*# sourceMappingURL=note-laptop.css.map */

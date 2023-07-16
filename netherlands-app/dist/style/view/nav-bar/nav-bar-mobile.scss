@@ -1,0 +1,118 @@
+@use '../../variable/mixin' as mixin;
+@use '../../variable/size' as size;
+@use '../../variable/color' as color;
+@use '../../variable/padding' as padding;
+@use '../../variable/media' as media;
+
+@media screen and (max-width: media.$mobile-nav) {
+    .nav {
+        margin: 0;
+        top: 0;
+        left: 0;
+        position: fixed;
+
+        #nav-bar-checkbox:checked {
+            & ~ .nav-bar-btn {
+                & > .line-1 {
+                    transform:  translateY(5px) rotateZ(45deg);
+                    background-color: color.$secondary;
+                }
+    
+                & > .line-2 {
+                    opacity: 0;
+                }
+    
+                & > .line-3 {
+                    transform: translateY(-5px) rotateZ(-45deg);
+                    background-color: color.$secondary;
+                }
+            }
+            
+            & ~ .nav-bar-container {
+                transform: translateX(0);
+            }
+        }
+
+        .nav-bar-btn {
+            @include mixin.flex(column, center, center);
+            @include mixin.width-height(size.$nav-bar-burger-menu, size.$nav-bar-burger-menu);
+            @include mixin.border-radius(size.$nav-bar-burger-menu);
+
+            position: fixed;
+            z-index: 99;
+            top: padding.$TR-nav-bar-btn;
+            right: padding.$TR-nav-bar-btn;
+
+            background-color: color.$primary;
+            border: solid 2px color.$secondary;
+
+            .nav-bar-line {
+                @include mixin.width-height(calc(size.$nav-bar-burger-menu / 2), 2px);
+                @include mixin.transition(all, 0.2s, linear);
+        
+                background-color: color.$light;
+            }
+
+            .line-1 {
+                background: linear-gradient(to right, color.$secondary 50%, transparent 50%);
+            }
+            
+            .line-2 {
+                margin: 3px 0;
+            }
+            
+            .line-3 {
+                background: linear-gradient(to left, color.$secondary 50%, transparent 50%);
+            }
+        }
+
+        .nav-bar-container {
+            @include mixin.flex(column, space-between, center);
+            @include mixin.width-height(size.$nav-bar-width-mobile, 100vh);
+            @include mixin.border-radius(0);
+            @include mixin.transition(all, 0.15s, linear);
+            @include mixin.transform(translateX(calc(-1 * size.$nav-bar-width-mobile)));
+    
+            position: fixed;
+            z-index: 98;
+            padding: 20px 0;
+
+            .nav-bar-logo-container {
+                @include mixin.flex(column, center, center);
+        
+                margin: 0;
+                padding: 0;
+
+                .nav-bar-logo-text {
+                    text-align: center;
+                    margin: 15px 0;
+                }
+            }
+
+            .nav-bar-link-container {
+                @include mixin.flex(column, center, center);
+
+                .nav-bar-link {
+                    @include mixin.width-height(100%, auto);
+
+                    text-align: center;
+                    margin: 7px 0;
+                }
+            }
+        }
+
+        .ghost {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) and (max-height: 400px) {
+    .nav .nav-bar-container .nav-bar-logo-container {
+        display: none;
+    } 
+
+    .nav .ghost {
+        display: none;
+    }
+}

@@ -1,0 +1,20 @@
+@use '../../variable/mixin' as mixin;
+@use '../../variable/margin' as margin;
+
+.two-cells-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: margin.$two-cells-grid-gap;
+    row-gap: 0px;
+
+    .left-cell-container {
+        @include mixin.flex(column, center, flex-start);
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .right-cell-container {
+        @include mixin.flex(column, center, flex-start);
+        grid-area: 1 / 2 / 2 / 3;
+    }
+}

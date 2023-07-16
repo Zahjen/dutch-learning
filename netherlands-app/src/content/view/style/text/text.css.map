@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../../../../dist/style/variable/_color.scss","../../../../../dist/style/view/text/text.scss","../../../../../dist/style/variable/_font.scss"],"names":[],"mappings":";AAAA;AAMA;AAIA;AAGA;ACTA;EACI,WCLG;EDMH;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI,ODjBM;;;ACoBV;EACI,ODpBQ;;;ACuBZ;EACI,ODlBM;;;ACqBV;EACI;IACI,WC9BM","file":"text.css"}
