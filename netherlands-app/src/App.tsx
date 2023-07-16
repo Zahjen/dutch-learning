@@ -17,7 +17,7 @@ function App() {
       <div className="app-container">
         <NavBar/>
         <Routes>
-          <Route path="/netherlands" element={ <HomeScreen/> } />
+          <Route path="/" element={ <HomeScreen/> } />
           <Route path="/conjugaison" element={ <ConjugationScreen/> } />
           <Route path="/vocabulaire" element={ <VocabularScreen/> } />
           <Route path="/grammaire" element={ <GrammarScreen/> } />
