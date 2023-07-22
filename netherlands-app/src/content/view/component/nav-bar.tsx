@@ -33,16 +33,16 @@ const NavBar = () => {
 
                 <div className="nav-bar-link-container">
                     <NavLink className="nav-bar-link" to="/dutch-learning">Accueil</NavLink>
-                    <NavLink className="nav-bar-link" to="/conjugaison">Conjugaison</NavLink>
-                    <NavLink className="nav-bar-link" to="/vocabulaire">Vocabulaire</NavLink>
-                    <NavLink className="nav-bar-link" to="/grammaire">Grammaire</NavLink>
+                    <NavLink className="nav-bar-link" to="/dutch-learning/conjugaison">Conjugaison</NavLink>
+                    <NavLink className="nav-bar-link" to="/dutch-learning/vocabulaire">Vocabulaire</NavLink>
+                    <NavLink className="nav-bar-link" to="/dutch-learning/grammaire">Grammaire</NavLink>
                 </div>
 
                 <div className="nav-bar-contact-container">
                     <NavButton
                         className="nav-bar-contact button button-fill-secondary"
                         text="Contact"
-                        to="/contact"
+                        to="/dutch-learning/contact"
                     />
                 </div>
 

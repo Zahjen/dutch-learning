@@ -18,10 +18,10 @@ function App() {
         <NavBar/>
         <Routes>
           <Route path="/dutch-learning" element={ <HomeScreen/> } />
-          <Route path="/conjugaison" element={ <ConjugationScreen/> } />
-          <Route path="/vocabulaire" element={ <VocabularScreen/> } />
-          <Route path="/grammaire" element={ <GrammarScreen/> } />
-          <Route path="/contact" element={ <ContactScreen/> } />
+          <Route path="/dutch-learning/conjugaison" element={ <ConjugationScreen/> } />
+          <Route path="/dutch-learning/vocabulaire" element={ <VocabularScreen/> } />
+          <Route path="/dutch-learning/grammaire" element={ <GrammarScreen/> } />
+          <Route path="/dutch-learning/contact" element={ <ContactScreen/> } />
           {
             vocabularSections.map((section: vocabularSectionProps) => {
               return <Route key={section.id} path={"/vocabular/" + section.id} element={ <Category section = { section }/> } />
