@@ -9,12 +9,12 @@
     row-gap: 0px;
 
     .left-cell-container {
-        @include mixin.flex(column, center, flex-start);
+        @include mixin.flex(column, flex-end, flex-start);
         grid-area: 1 / 1 / 2 / 2;
     }
 
     .right-cell-container {
-        @include mixin.flex(column, center, flex-start);
+        @include mixin.flex(column, flex-end, flex-start);
         grid-area: 1 / 2 / 2 / 3;
     }
 }

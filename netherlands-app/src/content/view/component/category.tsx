@@ -12,7 +12,7 @@ import "../style/category/category.css"
  */
 const Category: React.FC<CategoryProps> = (props: CategoryProps): JSX.Element => {
     return (
-        <div className="category-container" id = {props.section.id.trim()}>
+        <div className="page-container category-container" id = {props.section.id.trim()}>
             <Title title = {props.section.title.trim()} className="category-title" />
             {
                 props.section.data.map((d: TranslationProps) => {
