@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dutch-learning/static/css/main.0067b422.css",
-    "main.js": "/dutch-learning/static/js/main.6ca566fd.js",
+    "main.css": "/dutch-learning/static/css/main.ea67bc1f.css",
+    "main.js": "/dutch-learning/static/js/main.e0751f13.js",
     "static/media/home-learning-language.png": "/dutch-learning/static/media/home-learning-language.f78ffee0adcf963828ff.png",
     "static/media/in-progress.png": "/dutch-learning/static/media/in-progress.e1e5ed8c39a7df413bf8.png",
     "static/media/logo.svg": "/dutch-learning/static/media/logo.532d2ae8fa451b779e1500a83d79a07f.svg",
     "index.html": "/dutch-learning/index.html",
-    "main.0067b422.css.map": "/dutch-learning/static/css/main.0067b422.css.map",
-    "main.6ca566fd.js.map": "/dutch-learning/static/js/main.6ca566fd.js.map"
+    "main.ea67bc1f.css.map": "/dutch-learning/static/css/main.ea67bc1f.css.map",
+    "main.e0751f13.js.map": "/dutch-learning/static/js/main.e0751f13.js.map"
   },
   "entrypoints": [
-    "static/css/main.0067b422.css",
-    "static/js/main.6ca566fd.js"
+    "static/css/main.ea67bc1f.css",
+    "static/js/main.e0751f13.js"
   ]
 }
