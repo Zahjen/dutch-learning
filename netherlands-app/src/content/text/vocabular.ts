@@ -11,161 +11,259 @@ export interface vocabularSectionProps {
 
 export const vocabularSections: vocabularSectionProps[] = [
     {
-        title: "Couleurs - Kleuren",
-        id: "color",
+        title: "Salutation - Begroeting",
+        id: "greeting",
         data: [
             {
-                fr: "Blanc",
-                nl: "Wit"
+                fr: "Salut (informel)",
+                nl: "Hoi"
             },
             {
-                fr: "Jeune",
-                nl: "Geel"
+                fr: "Bonjour",
+                nl: "Hallo"
             },
             {
-                fr: "Orange",
-                nl: "Oranje"
+                fr: "Bonjour (avant midi)",
+                nl: "Goedemorgen"
             },
             {
-                fr: "Marron",
-                nl: "Bruin"
+                fr: "Bonjour (après midi)",
+                nl: "Goedemiddag"
             },
             {
-                fr: "Vert",
-                nl: "Groen"
+                fr: "Bonsoir (après 18h)",
+                nl: "Goedeavond"
             },
             {
-                fr: "Bleu",
-                nl: "Blauw"
+                fr: "Bonne nuit",
+                nl: "Goedenacht"
             },
             {
-                fr: "Violet",
-                nl: "Paars"
+                fr: "Bonjour / Bonne journée",
+                nl: "Goedendag"
             },
             {
-                fr: "Gris",
-                nl: "Grijs"
+                fr: "Au revoir",
+                nl: "Doei / Dag"
             },
             {
-                fr: "Noir",
-                nl: "Zwart"
+                fr: "À plus",
+                nl: "Tot ziens"
             },
             {
-                fr: "Rose",
-                nl: "Roze"
+                fr: "À plus tard (dans le même jour)",
+                nl: "Tot straks"
             },
             {
-                fr: "Rouge",
-                nl: "Rood"
+                fr: "À bientôt",
+                nl: "Tot snel / zo"
             },
             {
-                fr: "Couleur + clair",
-                nl: "Licht + Kleur (collé)"
+                fr: "Bonne journée (sens de au revoir)",
+                nl: "Fijne dag"
             },
             {
-                fr: "Couleur + foncé",
-                nl: "Donker + Kleur (collé)"
-            },
-            {
-                fr: "Couleur + vif",
-                nl: "Helder + Kleur (collé)"
-            },
-        ]
-    },
-    {
-        title: "Jours de la semaine - Dagen van de week",
-        id: "week-day-name",
-        data: [
-            {
-                fr: "Lundi",
-                nl: "Maandag"
-            },
-            {
-                fr: "Mardi",
-                nl: "Dinsdag"
-            },
-            {
-                fr: "Mercredi",
-                nl: "Woensdag"
-            },
-            {
-                fr: "Jeudi",
-                nl: "Donderdag"
-            }
-            ,
-            {
-                fr: "Vendredi",
-                nl: "Vrijdag"
-            }
-            ,
-            {
-                fr: "Samedi",
-                nl: "Zaterdag"
-            }
-            ,
-            {
-                fr: "Dimanche",
-                nl: "Zondag"
+                fr: "Bon weekend (sens de au revoir)",
+                nl: "Fijn weekend"
             }
         ]
     },
     {
-        title: "Mois et saisons - Maanden en seizoenen",
-        id: "month-season",
+        title: "Ça va ? - Hoe gaat het ?",
+        id: "how-are-you",
         data: [
             {
-                fr: "Janvier",
-                nl: "Januari"
+                fr: "Comment vas - tu ?",
+                nl: "Hoe gaat het ?"
             },
             {
-                fr: "Février",
-                nl: "Februari"
+                fr: "Comment allez - vous ?",
+                nl: "Hoe gaat het met u ?"
             },
             {
-                fr: "Mars",
-                nl: "Maart"
+                fr: "Parfaitement bien",
+                nl: "Uitstekend"
             },
             {
-                fr: "Avril",
-                nl: "April"
-            }
-            ,
-            {
-                fr: "Mai",
-                nl: "Mei"
-            }
-            ,
-            {
-                fr: "Juin",
-                nl: "Juni"
-            }
-            ,
-            {
-                fr: "Juillet",
-                nl: "Juli"
+                fr: "(Très) Bien, merci",
+                nl: "(Heel) Goed / Fijn, dank je"
             },
             {
-                fr: "Août",
-                nl: "Augustus"
+                fr: "Bof",
+                nl: "So so"
             },
             {
-                fr: "Septembre",
-                nl: "September"
-            }
-            ,
+                fr: "Pas bien",
+                nl: "Slecht"
+            },
             {
-                fr: "Octobre",
-                nl: "Oktober"
-            }
-            ,
+                fr: "Ça peut aller (à utiliser entre amis)",
+                nl: "Het gaat wel"
+            }, 
             {
-                fr: "Novembre",
-                nl: "November"
-            }
-            ,
+                fr: "Pas très bien",
+                nl: "Niet zo goed"
+            }, 
             {
-                fr: "Décembre",
-                nl: "December"
+                fr: "Je suis fatigué(e)",
+                nl: "Ik ben moe"
+            },
+            {
+                fr: "Je suis malade",
+                nl: "Ik ben ziek"
+            },
+            {
+                fr: "J'ai faim",
+                nl: "Ik heb honger"
+            },
+            {
+                fr: "J'ai soif",
+                nl: "Ik heb dorst"
+            }
+        ]
+    },
+    {
+        title: "Se présenter - Jezelf voorstellen",
+        id: "introduce-oneself",
+        data: [
+            {
+                fr: "Je m'appelle ...",
+                nl: "Ik heet ..."
+            },
+            {
+                fr: "Mon nom est ...",
+                nl: "Mijn naam is ..."
+            },
+            {
+                fr: "Je suis ...",
+                nl: "Ik ben ..."
+            },
+            {
+                fr: "J'ai ... ans",
+                nl: "Ik bin ... jaar"
+            },
+            {
+                fr: "Je suis né(e) le 23 mars 1998 à ...",
+                nl: "Ik ben op 23 maart 1998 in ... geboren"
+            },
+            {
+                fr: "Mon anniversaire est le ...",
+                nl: "Mijn verjaardag is op ..."
+            },
+            {
+                fr: "J'étudie ...",
+                nl: "Ik studeer ..."
+            },
+            {
+                fr: "Je suis étudiante en ...",
+                nl: "Ik ben een ... + student"
+            },
+            {
+                fr: "J'habite à ... en France.",
+                nl: "Ik woon in ... in Frankrijk / Ik woon in ..., Frankrijk"
+            }, 
+            {
+                fr: "J'ai ... frères et ... sœurs",
+                nl: "Ik heb ... broers en ... zussen"
+            }
+        ]
+    },
+    {
+        title: "Remerciement - Dankbetuiging",
+        id: "thank",
+        data: [
+            {
+                fr: "Merci / Remerciement",
+                nl: "Bedankt"
+            },
+            {
+                fr: "Merci beaucoup",
+                nl: "Hartlijk bedankt"
+            },
+            {
+                fr: "Je (te / vous) remercie",
+                nl: "Dank (je / u)"
+            },
+            {
+                fr: "Je (te / vous) remercie beaucoup",
+                nl: "Dank (Je / u) wel"
+            },
+            {
+                fr: "De rien",
+                nl: "Graag gedaan"
+            }
+        ]
+    },
+    {
+        title: "S'excuser - Zich verontschuldingen",
+        id: "excuse",
+        data: [
+            {
+                fr: "Désolé(e)",
+                nl: "Sorry"
+            },
+            {
+                fr: "Je suis désolé(e)",
+                nl: "Het spijt me"
+            },
+            {
+                fr: "Excusez - moi (sens d'attirer l'attention)",
+                nl: "Excuseert me / Pardon"
+            },
+            {
+                fr: "Pas de soucis",
+                nl: "Geen probleem"
+            },
+            {
+                fr: "Geeft niks",
+                nl: "Ce n'est pas grave"
+            },
+            {
+                fr: "Maak je geen zorgen",
+                nl: "Ce n'est rien"
+            }
+        ]
+    },
+    {
+        title: "Pronoms personnels - Persoonlijke voornaamwoorden",
+        id: "personal-pronouns-subject",
+        data: [
+            {
+                fr: "Je",
+                nl: "Ik"
+            },
+            {
+                fr: "Tu (quelqu'un qu'on connait)",
+                nl: "Je / Jij"
+            },
+            {
+                fr: "Il",
+                nl: "Hij"
+            },
+            {
+
+                fr: "Elle",
+                nl: "Ze / Zij"
+            },
+            {
+                fr: "Cela, ça, il, elle (objet)",
+                nl: "Het"
+            },
+            {
+                fr: "Nous",
+                nl: "We / Wij"
+            },
+            {
+                fr: "Vous (Plusieurs personnes qu'on connait)",
+                nl: "Julie"
+            },
+            {
+                fr: "Vous (Plusieurs personnes qu'on ne connait pas)",
+                nl: "U"
+            },
+            {
+                fr: "Ils, Elles",
+                nl: "Ze / Zij"
             }
         ]
     },
@@ -328,46 +426,162 @@ export const vocabularSections: vocabularSectionProps[] = [
         ]
     },
     {
-        title: "Pronoms personnels - Persoonlijke voornaamwoorden",
-        id: "personal-pronouns-subject",
+        title: "Jours de la semaine - Dagen van de week",
+        id: "week-day-name",
         data: [
             {
-                fr: "Je",
-                nl: "Ik"
+                fr: "Lundi",
+                nl: "Maandag"
             },
             {
-                fr: "Tu (quelqu'un qu'on connait)",
-                nl: "Je / Jij"
+                fr: "Mardi",
+                nl: "Dinsdag"
             },
             {
-                fr: "Il",
-                nl: "Hij"
+                fr: "Mercredi",
+                nl: "Woensdag"
             },
             {
-
-                fr: "Elle",
-                nl: "Ze / Zij"
-            },
-            {
-                fr: "Cela, ça, il, elle (objet)",
-                nl: "Het"
-            },
-            {
-                fr: "Nous",
-                nl: "We / Wij"
-            },
-            {
-                fr: "Vous (Plusieurs personnes qu'on connait)",
-                nl: "Julie"
-            },
-            {
-                fr: "Vous (Plusieurs personnes qu'on ne connait pas)",
-                nl: "U"
-            },
-            {
-                fr: "Ils, Elles",
-                nl: "Ze / Zij"
+                fr: "Jeudi",
+                nl: "Donderdag"
             }
+            ,
+            {
+                fr: "Vendredi",
+                nl: "Vrijdag"
+            }
+            ,
+            {
+                fr: "Samedi",
+                nl: "Zaterdag"
+            }
+            ,
+            {
+                fr: "Dimanche",
+                nl: "Zondag"
+            }
+        ]
+    },
+    {
+        title: "Mois et saisons - Maanden en seizoenen",
+        id: "month-season",
+        data: [
+            {
+                fr: "Janvier",
+                nl: "Januari"
+            },
+            {
+                fr: "Février",
+                nl: "Februari"
+            },
+            {
+                fr: "Mars",
+                nl: "Maart"
+            },
+            {
+                fr: "Avril",
+                nl: "April"
+            }
+            ,
+            {
+                fr: "Mai",
+                nl: "Mei"
+            }
+            ,
+            {
+                fr: "Juin",
+                nl: "Juni"
+            }
+            ,
+            {
+                fr: "Juillet",
+                nl: "Juli"
+            },
+            {
+                fr: "Août",
+                nl: "Augustus"
+            },
+            {
+                fr: "Septembre",
+                nl: "September"
+            }
+            ,
+            {
+                fr: "Octobre",
+                nl: "Oktober"
+            }
+            ,
+            {
+                fr: "Novembre",
+                nl: "November"
+            }
+            ,
+            {
+                fr: "Décembre",
+                nl: "December"
+            }
+        ]
+    },    
+    {
+        title: "Couleurs - Kleuren",
+        id: "color",
+        data: [
+            {
+                fr: "Blanc",
+                nl: "Wit"
+            },
+            {
+                fr: "Jeune",
+                nl: "Geel"
+            },
+            {
+                fr: "Orange",
+                nl: "Oranje"
+            },
+            {
+                fr: "Marron",
+                nl: "Bruin"
+            },
+            {
+                fr: "Vert",
+                nl: "Groen"
+            },
+            {
+                fr: "Bleu",
+                nl: "Blauw"
+            },
+            {
+                fr: "Violet",
+                nl: "Paars"
+            },
+            {
+                fr: "Gris",
+                nl: "Grijs"
+            },
+            {
+                fr: "Noir",
+                nl: "Zwart"
+            },
+            {
+                fr: "Rose",
+                nl: "Roze"
+            },
+            {
+                fr: "Rouge",
+                nl: "Rood"
+            },
+            {
+                fr: "Couleur + clair",
+                nl: "Licht + Kleur (collé)"
+            },
+            {
+                fr: "Couleur + foncé",
+                nl: "Donker + Kleur (collé)"
+            },
+            {
+                fr: "Couleur + vif",
+                nl: "Helder + Kleur (collé)"
+            },
         ]
     },
 ];
