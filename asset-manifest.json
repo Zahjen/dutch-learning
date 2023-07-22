@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dutch-learning/static/css/main.ea67bc1f.css",
-    "main.js": "/dutch-learning/static/js/main.a982d554.js",
+    "main.js": "/dutch-learning/static/js/main.8a94f5fe.js",
     "static/media/home-learning-language.png": "/dutch-learning/static/media/home-learning-language.f78ffee0adcf963828ff.png",
     "static/media/in-progress.png": "/dutch-learning/static/media/in-progress.e1e5ed8c39a7df413bf8.png",
     "static/media/logo.svg": "/dutch-learning/static/media/logo.532d2ae8fa451b779e1500a83d79a07f.svg",
     "index.html": "/dutch-learning/index.html",
     "main.ea67bc1f.css.map": "/dutch-learning/static/css/main.ea67bc1f.css.map",
-    "main.a982d554.js.map": "/dutch-learning/static/js/main.a982d554.js.map"
+    "main.8a94f5fe.js.map": "/dutch-learning/static/js/main.8a94f5fe.js.map"
   },
   "entrypoints": [
     "static/css/main.ea67bc1f.css",
-    "static/js/main.a982d554.js"
+    "static/js/main.8a94f5fe.js"
   ]
 }
